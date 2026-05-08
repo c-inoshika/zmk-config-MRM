@@ -5,7 +5,8 @@ on:
     paths:
       - config/**
       - boards/**
-      - build.yaml
+#      - build.yaml
+      - build.generated.yaml
  
 jobs:
   build:
