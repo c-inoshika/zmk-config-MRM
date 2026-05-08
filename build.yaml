@@ -15,10 +15,10 @@ include:
   #   snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_JOY Slot2_JOY Slot3_JOY
   #   artifact-name: MRM_JOY_JOY_JOY
 
-  - board: seeeduino_xiao_ble
-    shield: MRM rgbled_adapter
-    snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_TB Slot2_TPD Slot3_ENC
-    artifact-name: MRM_TB_TPD_ENC
+  #- board: seeeduino_xiao_ble
+  #  shield: MRM rgbled_adapter
+  #  snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_TB Slot2_TPD Slot3_ENC
+  #  artifact-name: MRM_TB_TPD_ENC
 
   # - board: seeeduino_xiao_ble
   #   shield: MRM rgbled_adapter
@@ -35,10 +35,10 @@ include:
   #   snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_JOY Slot2_ENC Slot3_TB
   #   artifact-name: MRM_JOY_ENC_TB
 
-  # - board: seeeduino_xiao_ble
-  #   shield: MRM rgbled_adapter
-  #   snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_JOY Slot2_TB Slot3_ENC
-  #   artifact-name: MRM_JOY_TB_ENC
+   - board: seeeduino_xiao_ble
+     shield: MRM rgbled_adapter
+     snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_JOY Slot2_TB Slot3_ENC
+     artifact-name: MRM_JOY_TB_ENC
 
   # - board: seeeduino_xiao_ble
   #   shield: MRM rgbled_adapter
