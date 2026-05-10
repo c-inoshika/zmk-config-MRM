@@ -16,25 +16,25 @@
             bindings = <&kp N7 &kp N6 &kp N5 &kp N0 &kp RET>;
             label = "MACRO01";
         };
-        macro01: macro02 {
+        macro02: macro02 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp G &kp f &kp N8 &kp f &kp &kp N1 &kp N1 &kp N3 &kp N8 RET>;
             label = "MACRO02";
         };
-        macro01: macro03 {
+        macro03: macro03 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp N7 &kp N6 &kp N5 &kp N0 &kp RET>;
             label = "MACRO03";
         };
-        macro01: macro04 {
+        macro04: macro04 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp N7 &kp N6 &kp N5 &kp N0 &kp RET>;
             label = "MACRO04";
         };
-        macro01: macro05 {
+        macro05: macro05 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp N7 &kp N6 &kp N5 &kp N0 &kp RET>;
