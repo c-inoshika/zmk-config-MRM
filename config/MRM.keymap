@@ -16,6 +16,12 @@
             bindings = <&kp N7 &kp N6 &kp N5 &kp N0 &kp RET>;
             label = "MACRO01";
         };
+        macro02: macro02 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp G &kp F &kp N8 &kp F &kp N1 &kp N1 &kp N3 &kp N8 &kp RET>;
+            label = "MACRO02";
+        };
     };
 
     keymap {
@@ -35,7 +41,7 @@
         func_layer {
             label = "Func";
             bindings = <
-          &kp PG_UP           &macro01  &kp B  &kp ENTER
+          &kp PG_UP           &macro02  &kp B  &kp ENTER
 &kp HOME  &kp BKSP   &kp END  &kp C     &kp D  &kp BKSP
           &kp PG_DN
             >;
