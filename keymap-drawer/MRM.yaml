@@ -14,7 +14,7 @@ layers:
   - DOWN
   Func:
   - PG UP
-  - A
+  - '&macro01'
   - B
   - ENTER
   - HOME
