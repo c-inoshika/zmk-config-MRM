@@ -13,7 +13,7 @@
         macro01: macro01 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp G &kp f &kp N8 &kp f &kp &kp N1 &kp N1 &kp N3 &kp N8 RET>;
+            bindings = <&kp G &kp f &kp N8 &kp f &kp N1 &kp N1 &kp N3 &kp N8 &kp RET>;
             label = "MACRO01";
         };
     };
