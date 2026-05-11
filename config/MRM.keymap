@@ -27,7 +27,72 @@
                 ;
             label = "MACRO02";
         };
-    };
+        macro03: macro03 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_tap &kp S>
+                , <&macro_press &kp LSHFT>
+                , <&macro_tap &kp U>
+                , <&macro_release &kp LSHFT>
+                , <&macro_tap &kp N2 &kp G &kp E &kp N7 &kp Q &kp RET>
+                ;
+            label = "MACRO03";
+        };
+        macro04: macro04 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LSHFT>
+                , <&macro_tap &kp I>
+                , <&macro_release &kp LSHFT>
+                , <&macro_tap &kp N &kp O &kp S &kp H &kp I &kp K &kp A &kp N4 &kp N1 &kp N2 &kp N6 &kp RET>
+                ;
+            label = "MACRO04";
+        };
+        macro05: macro05 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LSHFT>
+                , <&macro_tap &kp A>
+                , <&macro_release &kp LSHFT>
+                , <&macro_tap &kp N8 &kp J &kp I &kp M &kp N5 &kp N9 &kp N6 &kp N3 &kp RET>
+                ;
+            label = "MACRO05";
+        };
+        macro06: macro06 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LSHFT>
+                , <&macro_tap &kp T>
+                , <&macro_release &kp LSHFT>
+                , <&macro_tap &kp E &kp S &kp A>
+                , <&macro_press &kp LSHFT>
+                , <&macro_tap &kp S>
+                , <&macro_release &kp LSHFT>
+                , <&macro_tap &kp P &kp A &kp T>
+                , <&macro_press &kp LSHFT>
+                , <&macro_tap &kp V>
+                , <&macro_release &kp LSHFT>
+                , <&macro_tap &kp N5 &kp RET>
+                ;
+            label = "MACRO06";
+        };
+        macro07: macro07 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_tap &kp J &kp H &kp N2 &kp D>
+                , <&macro_press &kp LSHFT>
+                , <&macro_tap &kp M &kp A &kp H>
+                , <&macro_release &kp LSHFT>
+                , <&macro_tap &kp N5 &kp RET>
+                ;
+            label = "MACRO07";
+        };
+};
 
     keymap {
         compatible = "zmk,keymap";
