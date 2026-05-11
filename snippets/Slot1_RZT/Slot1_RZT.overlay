@@ -9,7 +9,7 @@
     pinctrl-names = "default", "sleep";
     clock-frequency = <100000>; 
     
-    mlx90393_input: mlx90393-input@0c {
+    mlx90393_input: mlx90393-input@c {
         compatible = "melexis,mlx90393-input";
         reg = <0x0c>;
         
