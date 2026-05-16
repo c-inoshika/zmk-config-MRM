@@ -5,8 +5,6 @@
 #include "MRM.dtsi"
 
 
-#include <input/processors/runtime-input-processor.dtsi>
-
 / {
     zip_keybind_keys: zip_keybind_keys {
         compatible = "zmk,input-processor-keybind";
