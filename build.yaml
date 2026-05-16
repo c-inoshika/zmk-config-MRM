@@ -113,8 +113,3 @@ include:
    - board: seeeduino_xiao_ble
      shield: settings_reset
 
-
-
-config:
-  # Add this to your board/shield configuration
-  - CONFIG_ZMK_WORKQUEUE_LOWPRIO=y
